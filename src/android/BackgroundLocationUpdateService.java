@@ -96,7 +96,7 @@ public class BackgroundLocationUpdateService
     private Integer activitiesInterval = 1000;
 
     private static final Integer SECONDS_PER_MINUTE      = 60;
-    private static final Integer MILLISECONDS_PER_SECOND = 60;
+    private static final Integer MILLISECONDS_PER_SECOND = 1000;
 
     private long  interval             = (long)  SECONDS_PER_MINUTE * MILLISECONDS_PER_SECOND * 5;
     private long  fastestInterval      = (long)  SECONDS_PER_MINUTE * MILLISECONDS_PER_SECOND;
